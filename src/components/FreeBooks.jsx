@@ -42,7 +42,7 @@ export default function FreeBooks() {
   };
 
   return (
-    <div className="max-w-screen-2xl container mx-auto md:px-16 px-4 mt-16">
+    <div className="max-w-screen-2xl container mx-auto md:px-16 px-4 mt-16" id="books">
 
       <div>
         <h1 className="text-xl font-semibold">Explore books</h1>

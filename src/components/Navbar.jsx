@@ -36,7 +36,7 @@ export default function Navbar() {
             <li className="relative hover:scale-105">
                 <a href="/airecommend" className="relative">
                     <b>AI Guide</b>
-                    <span className="absolute -top-2 -right-2 text-xs ">
+                    <span className="absolute md:-top-2 md:-right-2 md:mr-0  -top-1 text-xs ">
                         +
                     </span>
                 </a>
@@ -59,10 +59,10 @@ export default function Navbar() {
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="h-5 w-5"
+                                className="h-6 w-6"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor">
